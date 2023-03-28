@@ -1,7 +1,6 @@
 package histoire;
-import javax.sound.sampled.Port;
 
-import personnages.Humain;
+import personnages.*;
 
 public class HistoireTP4 {
 	
@@ -12,5 +11,15 @@ public static void main(String[] args) {
 	Prof.boire();
 	Prof.acheter("un jeu", 2);
 	Prof.acheter("un kimono", 50);
+	
+	
+	
+	System.out.println();
+	System.out.println();
+	Commercant Marco = new Commercant("Marco", 20);
+	Marco.direBonjour();
+	Marco.seFaireExtorquer();
+	Marco.recevoir(15);
+	Marco.boire();
 }
 }
