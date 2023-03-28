@@ -12,8 +12,6 @@ public static void main(String[] args) {
 	Prof.acheter("un jeu", 2);
 	Prof.acheter("un kimono", 50);
 	
-	
-	
 	System.out.println();
 	System.out.println();
 	Commercant Marco = new Commercant("Marco", 20);
@@ -21,5 +19,11 @@ public static void main(String[] args) {
 	Marco.seFaireExtorquer();
 	Marco.recevoir(15);
 	Marco.boire();
+	
+	System.out.println();
+	System.out.println();
+	Yakuza Noir = new Yakuza("Yaku Le Noir", "Whisky", 30, "Warsong");
+	Noir.direBonjour();
+	Noir.extorquer(Marco);
 }
 }
